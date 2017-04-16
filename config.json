@@ -1,0 +1,498 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "default",
+      "style2"
+    ],
+    "version": "2.0.1"
+  },
+  "portalUrl": "http://www.arcgisonline.cn/portal",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "NovMap",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images\\logo.png",
+  "geometryService": "http://tools.arcgisonline.cn/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.0.1",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_18",
+        "name": "AnchorBarController",
+        "label": "锚杆控制器"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 15,
+          "top": 17,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.0.1",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_19",
+        "name": "Header",
+        "label": "页眉"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 350,
+          "top": 25,
+          "width": 300,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.0.1",
+        "id": "widgets_Search_Widget_20",
+        "name": "Search",
+        "label": "搜索",
+        "config": "configs/Search/config_搜索.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 20,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.0.1",
+        "id": "widgets_OverviewMap_Widget_21",
+        "name": "OverviewMap",
+        "label": "总览图",
+        "config": "configs/OverviewMap/config_总览图.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 25,
+          "top": 95,
+          "relativeTo": "map"
+        },
+        "version": "2.0.1",
+        "id": "widgets_ZoomSlider_Widget_22",
+        "name": "ZoomSlider",
+        "label": "缩放滑块"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 25,
+          "top": 175,
+          "relativeTo": "map"
+        },
+        "id": "widgets_HomeButton_Widget_23",
+        "name": "HomeButton",
+        "label": "主页",
+        "version": "2.0.1"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 25,
+          "top": 215,
+          "relativeTo": "map"
+        },
+        "version": "2.0.1",
+        "id": "widgets_MyLocation_Widget_24",
+        "name": "MyLocation",
+        "label": "我的位置"
+      },
+      {
+        "uri": "",
+        "version": "2.0.1",
+        "position": {
+          "right": 20,
+          "bottom": 80,
+          "relativeTo": "map"
+        },
+        "closeable": true,
+        "id": "widgets_AttributeTable_Widget_25",
+        "label": "微件",
+        "placeholderIndex": 1
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 20,
+          "bottom": 60,
+          "relativeTo": "map"
+        },
+        "id": "widgets_Coordinate_Widget_26",
+        "name": "Coordinate",
+        "label": "坐标",
+        "version": "2.0.1"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 27,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.0.1",
+        "id": "widgets_Scalebar_Widget_27",
+        "name": "Scalebar",
+        "label": "比例尺",
+        "config": "configs/Scalebar/config_比例尺.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.0.1",
+        "id": "widgets_Splash_Widget_28",
+        "name": "Splash",
+        "label": "启动"
+      },
+      {
+        "position": {
+          "right": 100,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_29",
+        "label": "底图库",
+        "version": "2.0.1",
+        "uri": "widgets/BasemapGallery/Widget",
+        "closeable": true,
+        "IsController": false,
+        "name": "BasemapGallery",
+        "config": "configs/BasemapGallery/config_底图库.json"
+      },
+      {
+        "position": {
+          "right": 150,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_30",
+        "name": "AttributeTable",
+        "label": "属性表",
+        "version": "2.0.1",
+        "uri": "widgets/AttributeTable/Widget",
+        "closeable": true,
+        "config": "configs/AttributeTable/config_属性表.json"
+      },
+      {
+        "position": {
+          "right": 200,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_31",
+        "label": "微件",
+        "version": "2.0.1",
+        "uri": "",
+        "closeable": true
+      },
+      {
+        "position": {
+          "right": 200,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_32",
+        "name": "EchartsMarkLineMap",
+        "label": "商场流量分析",
+        "uri": "widgets/EchartsMarkLineMap/Widget",
+        "closeable": true
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "a32a5cdf8aa14a9dbc9c177039a7308e",
+    "mapOptions": {
+      "extent": {
+        "xmin": 12960367.507833123,
+        "ymin": 4852591.210140363,
+        "xmax": 12964982.393415961,
+        "ymax": 4855462.376015401,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "logo":false
+    },
+    "id": "map",
+    "portalUrl": "http://www.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.0.1",
+        "id": "widgets_Legend_Widget_16",
+        "name": "Legend",
+        "label": "图例",
+        "index": 2,
+        "config": "configs/Legend/config_图例.json"
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.0.1",
+        "id": "widgets_LayerList_Widget_17",
+        "name": "LayerList",
+        "label": "图层列表",
+        "index": 3,
+        "config": "configs/LayerList/config_图层列表.json"
+      },
+      {
+        "name": "TimeSlider",
+        "label": "时间滑块",
+        "version": "2.0.1",
+        "uri": "widgets/TimeSlider/Widget",
+        "index": 4,
+        "id": "widgets_TimeSlider_Widget_35",
+        "position": {
+          "relativeTo": "map"
+        },
+        "config": "configs/TimeSlider/config_时间滑块.json"
+      },
+      {
+        "name": "Summary",
+        "label": "汇总",
+        "version": "2.0.1",
+        "uri": "widgets/Summary/Widget",
+        "config": "configs/Summary/config_汇总.json",
+        "index": 5,
+        "id": "widgets_Summary_Widget_42",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "SituationAwareness",
+        "label": "缓冲区分析",
+        "version": "2.0.1",
+        "uri": "widgets/SituationAwareness/Widget",
+        "config": "configs/SituationAwareness/config_态势感知.json",
+        "index": 6,
+        "id": "widgets_SituationAwareness_Widget_43",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "Query",
+        "label": "查询",
+        "version": "2.0.1",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_查询.json",
+        "index": 7,
+        "id": "widgets_Query_Widget_39"
+      },
+      {
+        "name": "Directions",
+        "label": "导航",
+        "version": "2.0.1",
+        "uri": "widgets/Directions/Widget",
+        "config": "configs/Directions/config_导航.json",
+        "index": 8,
+        "id": "widgets_Directions_Widget_41"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 10,
+            "top": 10,
+            "right": 10,
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 20,
+            "top": 20
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 75,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.0.1",
+          "position": {
+            "left": 10,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "closeable": true
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 20,
+            "bottom": 60
+          }
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 50,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 195,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 155,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          }
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/5/configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.0.1",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  }
+}

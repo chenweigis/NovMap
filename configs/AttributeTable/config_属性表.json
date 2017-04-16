@@ -1,0 +1,433 @@
+{
+  "layerInfos": [
+    {
+      "name": "光华路SOHO",
+      "id": "didi_2006",
+      "layer": {
+        "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/didi/FeatureServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "奥士凯连锁公司东直门商场",
+      "id": "didi_7638",
+      "layer": {
+        "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/didi/FeatureServer/1"
+      },
+      "show": false
+    },
+    {
+      "name": "蓝岛大厦东区",
+      "id": "蓝岛大厦_322",
+      "layer": {
+        "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/蓝岛大厦/FeatureServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "Market",
+      "id": "Market_1108",
+      "layer": {
+        "url": "https://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Market/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "X",
+            "alias": "X",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Y",
+            "alias": "Y",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POI_ID",
+            "alias": "POI_ID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "商场名称",
+            "alias": "商场名称",
+            "show": true
+          },
+          {
+            "name": "英文名称",
+            "alias": "英文名称",
+            "show": true
+          },
+          {
+            "name": "电话",
+            "alias": "电话",
+            "show": true
+          },
+          {
+            "name": "地址",
+            "alias": "地址",
+            "show": true
+          },
+          {
+            "name": "鞋类",
+            "alias": "鞋类",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "男装类",
+            "alias": "男装类",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "女装类",
+            "alias": "女装类",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "综合类",
+            "alias": "综合类",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Hamlet",
+      "id": "Basemap_TH_5457",
+      "layer": {
+        "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Basemap_TH/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "MAPID",
+            "alias": "MAPID",
+            "show": false
+          },
+          {
+            "name": "KIND",
+            "alias": "KIND",
+            "show": false
+          },
+          {
+            "name": "ZIPCODE",
+            "alias": "ZIPCODE",
+            "show": false
+          },
+          {
+            "name": "TELEPHONE",
+            "alias": "TELEPHONE",
+            "show": true
+          },
+          {
+            "name": "ADMINCODE",
+            "alias": "ADMINCODE",
+            "show": true
+          },
+          {
+            "name": "DISPLAY_X",
+            "alias": "DISPLAY_X",
+            "show": true
+          },
+          {
+            "name": "DISPLAY_Y",
+            "alias": "DISPLAY_Y",
+            "show": true
+          },
+          {
+            "name": "POI_ID",
+            "alias": "POI_ID",
+            "show": true
+          },
+          {
+            "name": "IMPORTANCE",
+            "alias": "IMPORTANCE",
+            "show": true
+          },
+          {
+            "name": "VADMINCODE",
+            "alias": "VADMINCODE",
+            "show": true
+          },
+          {
+            "name": "CHAINCODE",
+            "alias": "CHAINCODE",
+            "show": true
+          },
+          {
+            "name": "PRIOR_AUTH",
+            "alias": "PRIOR_AUTH",
+            "show": true
+          },
+          {
+            "name": "LINKID",
+            "alias": "LINKID",
+            "show": true
+          },
+          {
+            "name": "SIDE",
+            "alias": "SIDE",
+            "show": true
+          },
+          {
+            "name": "PID",
+            "alias": "PID",
+            "show": true
+          },
+          {
+            "name": "TEL_TYPE",
+            "alias": "TEL_TYPE",
+            "show": true
+          },
+          {
+            "name": "FOOD_TYPE",
+            "alias": "FOOD_TYPE",
+            "show": true
+          },
+          {
+            "name": "AIRPT_CODE",
+            "alias": "AIRPT_CODE",
+            "show": true
+          },
+          {
+            "name": "OPEN_24H",
+            "alias": "OPEN_24H",
+            "show": true
+          },
+          {
+            "name": "DATA_SRC",
+            "alias": "DATA_SRC",
+            "show": true
+          },
+          {
+            "name": "MESH_ID",
+            "alias": "MESH_ID",
+            "show": true
+          },
+          {
+            "name": "POI_FLAG",
+            "alias": "POI_FLAG",
+            "show": true
+          },
+          {
+            "name": "RATING",
+            "alias": "RATING",
+            "show": true
+          },
+          {
+            "name": "FID_1",
+            "alias": "FID_1",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FEATID",
+            "alias": "FEATID",
+            "show": true
+          },
+          {
+            "name": "NAMETYPE",
+            "alias": "NAMETYPE",
+            "show": true
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true
+          },
+          {
+            "name": "PY",
+            "alias": "PY",
+            "show": true
+          },
+          {
+            "name": "KEYWORD",
+            "alias": "KEYWORD",
+            "show": true
+          },
+          {
+            "name": "SEQ_NM",
+            "alias": "SEQ_NM",
+            "show": true
+          },
+          {
+            "name": "SIGNNUMFLG",
+            "alias": "SIGNNUMFLG",
+            "show": true
+          },
+          {
+            "name": "SIGNNAMETP",
+            "alias": "SIGNNAMETP",
+            "show": true
+          },
+          {
+            "name": "LANGUAGE",
+            "alias": "LANGUAGE",
+            "show": true
+          },
+          {
+            "name": "NAMEFLAG",
+            "alias": "NAMEFLAG",
+            "show": true
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "显示文字",
+      "id": "Basemap_TH_528",
+      "layer": {
+        "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Basemap_TH/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "MAPID",
+            "alias": "MAPID",
+            "show": true
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": true
+          },
+          {
+            "name": "KIND",
+            "alias": "KIND",
+            "show": true
+          },
+          {
+            "name": "CLASS",
+            "alias": "CLASS",
+            "show": true
+          },
+          {
+            "name": "FID_1",
+            "alias": "FID_1",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FEATID",
+            "alias": "FEATID",
+            "show": true
+          },
+          {
+            "name": "NAMETYPE",
+            "alias": "NAMETYPE",
+            "show": true
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true
+          },
+          {
+            "name": "PY",
+            "alias": "PY",
+            "show": true
+          },
+          {
+            "name": "KEYWORD",
+            "alias": "KEYWORD",
+            "show": true
+          },
+          {
+            "name": "SEQ_NM",
+            "alias": "SEQ_NM",
+            "show": true
+          },
+          {
+            "name": "SIGNNUMFLG",
+            "alias": "SIGNNUMFLG",
+            "show": true
+          },
+          {
+            "name": "SIGNNAMETP",
+            "alias": "SIGNNAMETP",
+            "show": true
+          },
+          {
+            "name": "LANGUAGE",
+            "alias": "LANGUAGE",
+            "show": true
+          },
+          {
+            "name": "NAMEFLAG",
+            "alias": "NAMEFLAG",
+            "show": true
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "China",
+      "id": "ChinaOnlineStreetPurplishBlue_2073_0",
+      "layer": {
+        "url": "http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/0"
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true
+}

@@ -1,0 +1,66 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "Basemap_TH_528",
+      "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Basemap_TH/FeatureServer/1",
+      "name": "显示文字",
+      "placeholder": "",
+      "searchFields": [
+        "NAME"
+      ],
+      "displayField": "NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Basemap_TH_5457",
+      "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Basemap_TH/FeatureServer/0",
+      "name": "Hamlet",
+      "placeholder": "",
+      "searchFields": [
+        "NAME"
+      ],
+      "displayField": "NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Market_1108",
+      "url": "https://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Market/FeatureServer/1",
+      "name": "Market",
+      "placeholder": "搜索商场",
+      "searchFields": [
+        "商场名称"
+      ],
+      "displayField": "商场名称",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "http://ags.arcgisonline.cn/arcgis/rest/services/ChineseGeocoding/GeocodeServer",
+      "name": "我的地理编码器",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "关键字搜索",
+      "countryCode": "",
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": true,
+      "type": "locator"
+    }
+  ]
+}

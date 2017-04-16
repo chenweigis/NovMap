@@ -1,0 +1,74 @@
+{
+  "comment": "Do not change lyr_types unless you have the widget JS code to support them",
+  "geometryService": {
+    "url": "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer"
+  },
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "routeService": {
+    "url": "http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Network/USA/NAServer/Route",
+    "comment": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World"
+  },
+  "enableRouting": true,
+  "special_layer": {
+    "label": "Weather",
+    "value": "weather",
+    "url": "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=3&extra=localObsTime&key=63hkyhwzpks3a3kj9k9jdfeg",
+    "external_lyr": {
+      "label": "Weather observation web service",
+      "url": "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=3&extra=localObsTime&key=63hkyhwzpks3a3kj9k9jdfeg"
+    }
+  },
+  "bufferLabel": "Buffer Distance",
+  "bufferRange": {
+    "minimum": 0,
+    "maximum": 3000
+  },
+  "distanceUnits": "meters",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": 100,
+  "defaultZoomLevel": 13,
+  "tabs": [
+    {
+      "label": "Weather",
+      "type": "weather",
+      "layers": "",
+      "url": "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=3&extra=localObsTime&key=63hkyhwzpks3a3kj9k9jdfeg"
+    },
+    {
+      "label": "",
+      "type": "proximity",
+      "layers": "Market",
+      "advStat": {
+        "url": "https://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Market/FeatureServer/1",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "商场名称",
+              "label": "商场名称"
+            },
+            {
+              "value": 0,
+              "expression": "电话",
+              "label": "电话"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "csvAllFields": "true",
+  "summaryDisplayEnabled": "true",
+  "editTemplate": null,
+  "selectedTemplateIndex": null,
+  "saveEnabled": false
+}

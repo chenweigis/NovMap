@@ -1,0 +1,33 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "总数",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "SUM",
+        "label": "鞋类品牌",
+        "field": "鞋类"
+      },
+      {
+        "type": "SUM",
+        "label": "男装类品牌",
+        "field": "男装类"
+      },
+      {
+        "type": "SUM",
+        "label": "女装类品牌",
+        "field": "女装类"
+      },
+      {
+        "type": "SUM",
+        "label": "综合类品牌",
+        "field": "综合类"
+      }
+    ],
+    "id": "Market_1108",
+    "name": "Market",
+    "filterField": "",
+    "url": "Market_1108"
+  }
+}

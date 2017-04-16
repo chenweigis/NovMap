@@ -1,0 +1,133 @@
+{
+  "queries": [
+    {
+      "name": "Market",
+      "url": "https://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Market/FeatureServer/1",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "popup": {
+        "title": "${商场名称}",
+        "fields": [
+          {
+            "name": "商场名称",
+            "alias": "商场名称",
+            "specialType": "none"
+          },
+          {
+            "name": "电话",
+            "alias": "电话",
+            "specialType": "none"
+          },
+          {
+            "name": "英文名称",
+            "alias": "英文名称",
+            "specialType": "none"
+          },
+          {
+            "name": "地址",
+            "alias": "地址",
+            "specialType": "none"
+          }
+        ]
+      },
+      "resultsSymbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 12,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/SpringGreenStickpin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "objectIdField": "OBJECTID",
+      "orderByFields": [
+        "商场名称 ASC"
+      ]
+    },
+    {
+      "name": "Hamlet",
+      "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Basemap_TH/FeatureServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "popup": {
+        "title": "${NAME}",
+        "fields": []
+      },
+      "resultsSymbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "objectIdField": "OBJECTID",
+      "orderByFields": []
+    },
+    {
+      "name": "显示文字",
+      "url": "http://services5.arcgis.com/0Q7QSJb99DkLdlK5/arcgis/rest/services/Basemap_TH/FeatureServer/1",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "popup": {
+        "title": "${NAME}",
+        "fields": []
+      },
+      "resultsSymbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "objectIdField": "OBJECTID",
+      "orderByFields": []
+    }
+  ]
+}
